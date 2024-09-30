@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(69, 66, 66);
+}
+
+section>.nav{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+section>.nav>.a1{
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    
+}
+
+section>.nav>.a1>p{
+    height: 50%;
+    width: 50%;
+    /* background-color: violet; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 20px;
+    
+}
+
+section>.nav>.a2{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+section>.nav>.a2>button{
+    height: 45px;
+    width: 120px;
+    margin-right: 20px;
+    background-color: black;
+    color: rgb(10, 41, 240);
+    border: none;
+    border-radius: 5px;
+}
+
+section>.nav>.a2>button:hover{
+    background-color: rgb(58, 49, 49);
+    color: rgb(10, 41, 240);
+}
+
+section>main{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    
+}
+
+section>main>.color{
+    display: flex;
+    justify-content: center;
+}
+section>main>.color>article{
+    margin-top: 80px;
+    height: 500px;
+    width: 450px;
+    background: linear-gradient(to right,orangered,orange);
+    border-radius: 25px;
+    rotate: 173deg;
+}
+
+section>main>.login{
+    height: 490px;
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    top: 90px;
+    left: 545px;
+    border-radius: 25px;
+
+}
+
+section>main>.login>article{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+
+}
+
+
+
+section>main>.login>article>div>p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: aqua; */
+    padding-top: 70px;
+}
+
+section>main>.login>article>div>div{
+    height: 50px;
+    width: 75%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+section>main>.login>article>div>div>.l1{
+    height: 20px;
+    width: px;
+    /* background-color: orange; */
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    outline: none;
+    
+}
+
+
+section>main>.login>article>div>div>.l2{
+    height: 20px;
+    width: px;
+    /* background-color: orange; */
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+
+section>main>.login>article>div>button{
+    height: 45px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
